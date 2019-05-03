@@ -16,4 +16,6 @@ def create_project_hash
   # location: project.css(".location-name").text
   # percentage_funded: project.css(".first.funded strong").text.gsub("%","").to_i
   
+  projects.each do |project|
+    
 end
